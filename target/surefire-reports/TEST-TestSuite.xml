@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="2" name="TestSuite" time="82.256" errors="0" skipped="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FlipkartTestJob"/>
+    <property name="ANDROID_SDK_HOME" value="C:\Android"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\avikc\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="a1363ffa9ce08d03"/>
+    <property name="POM_ARTIFACTID" value="Flipkart"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Flipkart"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\avikc\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="avikc"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FlipkartTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FlipkartTestJob/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="OneDrive" value="C:\Users\avikc\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\avikc\AppData\Local"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="avikc"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\avikc\OneDrive"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FlipkartTestJob/7/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\avikc\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FlipkartTestJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-M1K018N6"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_251"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\avikc"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LAPTOP-M1K018N6"/>
+    <property name="GameFirst" value="C:\Program Files (x86)\ASUS\GameFirst\"/>
+    <property name="POM_GROUPID" value="FlipkartAutomation"/>
+    <property name="user.home" value="C:\Users\avikc"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FlipkartTestJob-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="a1363ffa9ce08d03"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\avikc"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Android;C:\Program Files\Java\jdk1.8.0_251\bin;C:\apache-maven-3.6.3\bin;C:\Users\avikc\AppData\Local\Microsoft\WindowsApps;;C:\Users\avikc\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\avikc\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3"/>
+    <property name="java.class.path" value="C:\Users\avikc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.3 C:\Users\avikc\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\avikc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\avikc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 55386"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Android;C:\Program Files\Java\jdk1.8.0_251\bin;C:\apache-maven-3.6.3\bin;C:\Users\avikc\AppData\Local\Microsoft\WindowsApps;;C:\Users\avikc\AppData\Local\Programs\Microsoft VS Code\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_251/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 13, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.6.3"/>
+    <property name="java.io.tmpdir" value="C:\Users\avikc\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\avikc\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.6.3/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FlipkartTestJob/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\avikc\eclipse-workspace\Flipkart"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FlipkartTestJob/"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-M1K018N6"/>
+    <property name="USERDOMAIN" value="LAPTOP-M1K018N6"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.6.3"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="9e0d"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Jenkins"/>
+    <property name="GameFirstUserPath" value="C:\Users\avikc\AppData\Local\ASUS\GameFirst"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\avikc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\avikc\.jenkins\workspace\FlipkartTestJob@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\avikc\.jenkins\workspace\FlipkartTestJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\avikc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.fk.test.ExplorePlusTest" name="landOnCoinActivity" time="1.816"/>
+  <testcase classname="com.fk.test.HomePageTest" name="verifydeals" time="0.09"/>
+  <testcase classname="com.fk.test.HomePageTest" name="performSearch" time="8.654"/>
+  <testcase classname="com.fk.test.HomePageTest" name="performSearch" time="8.585"/>
+  <testcase classname="com.fk.test.HomePageTest" name="performSearch" time="34.944">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M1K018N6&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\avikc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9cf34b2ef35f439a5c2d25afe7cd173b
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M1K018N6&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\avikc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9cf34b2ef35f439a5c2d25afe7cd173b
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.fk.pages.HomePage.performSearch(HomePage.java:58)
+	at com.fk.test.HomePageTest.performSearch(HomePageTest.java:62)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.flipkart.com/&apos;
+Navigated to:&apos;https://www.flipkart.com/&apos;
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Enter Email/Mobile number&apos;)]/../..//input
+Found Element By : By.xpath: //span[contains(text(),&apos;Enter Email/Mobile number&apos;)]/../..//input
+Trying to find Element By : By.xpath: //input[@type=&apos;password&apos;]
+Found Element By : By.xpath: //input[@type=&apos;password&apos;]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]
+Found Element By : By.xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9cf34b2ef35f439a5c2d25afe7cd173b)] -&gt; xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9cf34b2ef35f439a5c2d25afe7cd173b)] -&gt; xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]]
+Trying to find Element By : By.xpath: //input[@name =&apos;q&apos;]
+Found Element By : By.xpath: //input[@name =&apos;q&apos;]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M1K018N6&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\avikc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9cf34b2ef35f439a5c2d25afe7cd173b
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;iphone&apos;)]/parent::div[contains(string(),&apos;11.0&apos; )]}
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 45652
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 30, 2020 4:41:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.fk.test.HomePageTest" name="verifyExplorePlus" time="1.182"/>
+  <testcase classname="com.fk.test.SearchPageTest" name="setup" time="13.492">
+    <failure message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.fk.pages.HomePage.performSearch(HomePage.java:55)
+	at com.fk.test.SearchPageTest.setup(SearchPageTest.java:31)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.flipkart.com/&apos;
+Navigated to:&apos;https://www.flipkart.com/&apos;
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Enter Email/Mobile number&apos;)]/../..//input
+Found Element By : By.xpath: //span[contains(text(),&apos;Enter Email/Mobile number&apos;)]/../..//input
+Trying to find Element By : By.xpath: //input[@type=&apos;password&apos;]
+Found Element By : By.xpath: //input[@type=&apos;password&apos;]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]
+Found Element By : By.xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (29bfceee6dd67d6b64cef7865265483f)] -&gt; xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (29bfceee6dd67d6b64cef7865265483f)] -&gt; xpath: //span[contains(text(),&apos;Login&apos;)]/parent::button[@type=&apos;submit&apos;]]
+Trying to find Element By : By.xpath: //input[@name =&apos;q&apos;]
+Found Element By : By.xpath: //input[@name =&apos;q&apos;]
+Exception occured: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 17014
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 30, 2020 4:42:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.fk.test.SearchPageTest" name="verifyShowingText" time="13.493">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.fk.test.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="performSearch" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.fk.test.HomePageTest -->
+      <class name="com.fk.test.SearchPageTest">
+        <methods>
+          <include name="verifyShowingText"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.fk.test.SearchPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
