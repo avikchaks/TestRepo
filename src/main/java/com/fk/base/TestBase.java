@@ -21,6 +21,7 @@ public class TestBase {
 	static EventFiringWebDriver e_driver ;
 	static WebEventListener eventListner ;
  public TestBase () throws IOException {
+	 //reading input file
 	 prop = new Properties();
 	 FileInputStream file = new FileInputStream("C:\\Users\\avikc\\eclipse-workspace\\Flipkart\\src\\main\\java\\com\\fk\\config\\config.properties");
 	 prop.load(file);
@@ -51,7 +52,7 @@ public class TestBase {
 	 driver.manage().deleteAllCookies();
 	 driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 	 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS) ;
-	 
+	 //launching browser
 	 driver.get(prop.getProperty("url"));
 	 
 	 }
