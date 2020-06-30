@@ -41,6 +41,7 @@ public class TestBase {
 			 System.setProperty("webdriver.firefox.driver", "C:\\Users\\avikc\\eclipse-workspace\\Flipkart\\src\\main\\java\\com\\fk\\drivers\\geckodriver.exe");
 			 driver = new FirefoxDriver ();
 		 }
+		 //register object inherited from WebDriverEventListener and register it object of EventFiringWebDriver
 	 e_driver = new EventFiringWebDriver(driver) ;
 	 eventListner = new WebEventListener ();
 	 e_driver.register(eventListner) ;
