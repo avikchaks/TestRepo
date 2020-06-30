@@ -15,7 +15,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.fk.util.WebEventListener;
 
 public class TestBase {
-	
+	//only in Dummy
 	public static WebDriver driver;
 	public static Properties prop ;
 	static EventFiringWebDriver e_driver ;
